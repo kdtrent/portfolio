@@ -36,12 +36,12 @@ button {
     transition: 0.5s;
 }
 
-.sidebar a.active {
+.sidenav a.active {
     background-color: steelblue;
     color: white;
 }
 
-.sidebar a:hover:not(.active) {
+.sidenav a:hover:not(.active) {
     background-color: white;
     color:  black;
 }
