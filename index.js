@@ -1,6 +1,6 @@
 function activateButton(button) {
     // Remove "active" class from all buttons
-    const buttons = document.querySelectorAll('.sidenav a', '.sidenav dropdown-btn');
+    const buttons = document.querySelectorAll('.sidenav a', '.sidenav button');
     buttons.forEach(btn => btn.classList.remove('active'));
 
     // Add "active" class to the clicked button
