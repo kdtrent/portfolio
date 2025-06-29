@@ -38,16 +38,12 @@ button {
 }
 
 .sidenav dropdown-btn {
+    padding: 8px 8px 8px 32px;
     text-decoration: none;
     text-align: left;
     font-size: 25px;
     color: whitesmoke;
     display: block;
-    border: none;
-    background: none;
-    width: 100%;
-    cursor: pointer;
-    outline: none;
 }
 
 .sidenav a.active {
