@@ -9,14 +9,17 @@
     <body>
         <div id="MySideNav" class="sidenav">
             <a href="#about_me" onclick="activateButton(this)">About Me</a>
-            <a href="#projects" onclick="activateButton(this)">Projects
-                <i class="fa fa-caret-down"></i>
+            <a href="#projects" onclick="activateButton(this)">
+                <dropdown-btn>Projects
+                    <i class="fa fa-caret-down"></i>
+                </dropdown-btn>
+                <div class="dropdown-container">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                </div>
             </a>
-            <div class="dropdown-container">
-                <a href="#">Link 1</a>
-                <a href="#">Link 2</a>
-                <a href="#">Link 3</a>
-            </div>
+
             <a href="#contact_me" onclick="activateButton(this)">Contact Me</a>
             <a href="#resume" onclick="activateButton(this)">Resume</a>
         </div>
