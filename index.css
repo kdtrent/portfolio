@@ -23,7 +23,7 @@ button {
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #111;
+    background-color: black;
     overflow-x: hidden;
     padding-top: 20px; }
 
@@ -56,20 +56,20 @@ button {
     color: whitesmoke;
 }
 
-.sidenav a, .dropdown-btn.active {
+/* .sidenav a, .dropdown-btn.active {
     background-color: steelblue;
     color: whitesmoke;
-}
+} */
 
 .sidenav a:hover:not(.active) {
     background-color: whitesmoke;
     color:  black;
 }
 
-.sidenav a, .dropdown-btn:hover:not(.active) {
+/* .sidenav a, .dropdown-btn:hover:not(.active) {
     background-color: whitesmoke;
     color: black;
-}
+} */
 
 .dropdown-container {
     display: none;
