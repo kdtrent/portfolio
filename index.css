@@ -37,7 +37,7 @@ button {
     display: block;
 }
 
-.sidenav a, .dropdown-btn {
+.sidenav .dropdown-btn {
     text-decoration: none;
     text-align: left;
     font-size: 25px;
@@ -55,7 +55,7 @@ button {
     color: whitesmoke;
 }
 
-.sidenav a, .dropdown-btn.active {
+.sidenav .dropdown-btn.active {
     background-color: steelblue;
     color: whitesmoke;
 }
@@ -65,7 +65,7 @@ button {
     color:  black;
 }
 
-.sidenav a, .dropdown-btn:hover:not(.active) {
+.sidenav .dropdown-btn:hover:not(.active) {
     background-color: whitesmoke;
     color: black;
 }
