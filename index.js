@@ -16,6 +16,7 @@ function activateButton(button) {
       var dropdownContent = this.nextElementSibling;
       if (dropdownContent.style.display === "block") {
         dropdownContent.style.display = "none";
+        activateButton(button);
       } else {
         dropdownContent.style.display = "block";
       }
