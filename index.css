@@ -54,10 +54,10 @@ body {
     color: whitesmoke;
 }
 
-/* .active {
+.active {
     background-color: steelblue;
     color: whitesmoke;
-} */
+}
 
 .dropdown-container {
     display: none;
