@@ -49,10 +49,10 @@ body {
 }
 
 /* When class set to active */
-.sidenav a.active,  .dropdown-btn.active{
+/* .sidenav a.active,  .dropdown-btn.active{
     background-color: steelblue;
     color: whitesmoke;
-}
+} */
 
 .active {
     background-color: steelblue;
