@@ -14,6 +14,7 @@ function activateButton(button) {
     dropdown[i].addEventListener("click", function() {
       this.classList.toggle("active");
       var dropdownContent = this.nextElementSibling;
+      activateButton(button)
       if (dropdownContent.style.display === "block") {
         dropdownContent.style.display = "none";
       } else {
