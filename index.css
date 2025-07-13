@@ -28,7 +28,7 @@ body {
     overflow-x: hidden;
     padding-top: 20px; }
 
-.sidenav a{
+.sidenav a, .dropdown-btn {
     /* padding: 6px 8px 6px 0px; */
     text-decoration: none;
     font-size: 20px;
