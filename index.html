@@ -9,13 +9,13 @@
     <body>
         <div id="MySideNav" class="sidenav">
             <a href="#about_me" onclick="activateButton(this)">About Me</a>
-            <button class="dropdown-btn">Projects
-                <i class="fa fa-caret-down"></i>
-            </button>
+            <a href="#projects" onclick="activateButton(this)">Projects
+                <button class="fa fa-caret-down"></button>
+            </a>
             <div class="dropdown-container">
-                <a href="#">Link 1</a>
-                <a href="#">Link 2</a>
-                <a href="#">Link 3</a>
+                <a href="#Class-Related">Class-Related</a>
+                <a href="#Personal">Personal</a>
+                <a href="#Research">Research</a>
             </div>
             <a href="#contact_me" onclick="activateButton(this)">Contact Me</a>
             <a href="#resume" onclick="activateButton(this)">Resume</a>
@@ -31,10 +31,10 @@
 
             <section id="projects">
                 <h1>Projects</h1>
-                    <h2>Class-related</h2>
+                    <h2 id="Class-Related">Class-related</h2>
                         <h3>2.007 Design and Manufacturing Robot</h3>
 
-                    <h2>Personal</h2>
+                    <h2 id="Personal">Personal</h2>
                         <h3>Blacksmithing</h3>
                             <h4>V-Bit Bolt-Jaw Tongs</h4>
                             <img src="v-bit_bolt-jaw_tongs.jpg" width="25%" height="auto">
@@ -68,7 +68,7 @@
                             <img src="fire_poker.jpg" width="25%" height="auto">
                             <p>This fire poker is made from .5'' round rebar</p>
 
-                    <h2>Research</h2>
+                    <h2 id="Research">Research</h2>
                         <h3>Kinematic Coupling Test Rig</h3>
 
                         <h3>5-axis CNC Milling Machine and Trainig Setup</h3>

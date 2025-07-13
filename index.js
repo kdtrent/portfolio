@@ -8,7 +8,7 @@ function activateButton(button) {
   }
 
 //* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
-var dropdown = document.getElementsByClassName("dropdown-btn");
+var dropdown = document.getElementsByClassName("fa fa-caret-down");
 var i;
 
 for (i = 0; i < dropdown.length; i++) {
