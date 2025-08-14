@@ -9,12 +9,21 @@
     <body>
         <div id="MySideNav" class="sidenav">
             <a href="#about_me" onclick="activateButton(this)">About Me</a>
-                <a href="#projects" class="dropdown-btn">Projects<i onclick="activateButton(this)" class="fa fa-caret-down"></i></a>
-            <div class="dropdown-container">
-                <a href="#Class-Related" onclick="activateButton(this)">Class-Related</a>
-                <a href="#Personal" onclick="activateButton(this)">Personal</a>
-                <a href="#Research" onclick="activateButton(this)">Research</a>
-            </div>
+            <a href="#projects" onclick="activateButton(this)" class="dropdown-btn">Projects<i class="fa fa-caret-down"></i></a>
+                <div class="dropdown-container">
+                    <a href="#Class-Related" onclick="activateButton(this)" class="dropdown-btn">Class-Related</a>
+                        <div class="dropdown-container">
+                            <a>Place holder 1</a>
+                        </div>
+                    <a href="#Personal" onclick="activateButton(this)" class="dropdown-btn">Personal</a>
+                        <div class="dropdown-container">
+                            <a>Place holder 2</a>
+                        </div>
+                    <a href="#Research" onclick="activateButton(this)" class="dropdown-btn">Research</a>
+                        <div class="dropdown-container">
+                            <a>Place holder 3</a>
+                        </div>
+                </div>
             <a href="#contact_me" onclick="activateButton(this)">Contact Me</a>
             <a href="#resume" onclick="activateButton(this)">Resume</a>
         </div>
@@ -30,7 +39,7 @@
                     He said, "The best tool for the job is what you hvae on hand." This has helped me to take what I have with
                     me to find solutions to the problems I encounter during my everyday life. <br>
 
-                    This is commit number 7 of 08/13/2025 at 21.43 p.m.</p>
+                    This is commit number 8 of 08/13/2025 at 21.55 p.m.</p>
             </section>
 
             <section id="projects">
