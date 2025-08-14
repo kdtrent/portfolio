@@ -16,6 +16,10 @@ body {
     display: inline-block;
 }
 
+.button {
+    padding: 0%;
+}
+
 .sidenav {
     height: 100%;
     width: 200px;
