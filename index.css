@@ -22,7 +22,7 @@ body {
 
 .sidenav {
     height: 100%;
-    width: 100px;
+    width: 300px;
     position: fixed;
     z-index: 1;
     top: 0;
@@ -72,11 +72,11 @@ body {
 
 .fa-caret-down {
     float: right;
-    padding-right: 5px;
+    padding-right: 150px;
 }
 
 .main {
-    margin-left: 200px;
+    margin-left: 300px;
 }
 
 @media screen and (max-width: 700px) {
