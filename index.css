@@ -3,6 +3,12 @@ body {
     color: whitesmoke;
     font-family: Arial, Helvetica, sans-serif;
     text-align: left;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.h1 {
+    text-align: center;
 }
 
 .email_button {
@@ -30,7 +36,7 @@ body {
     background-color: black;
     font-family: Arial, Helvetica, sans-serif;
     overflow-x: hidden;
-    padding-left: 5px;
+    padding-left: 10px;
     padding-top: 5px; }
 
 .sidenav a, .dropdown-btn {
@@ -67,12 +73,12 @@ body {
 .dropdown-container {
     display: none;
     background-color: black;
-    padding-left: 8px;
+    padding-left: 15px;
 }
 
 .fa-caret-down {
     float: right;
-    padding-right: 5px;
+    padding-right: 10px;
 }
 
 .main {
